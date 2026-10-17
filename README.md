@@ -45,7 +45,7 @@ The firmware runs on an **Adafruit QT Py ESP32-S3** and drives the board's built
 Both parts are about 22 × 37 × 8 mm.
 
 - `stls/tally_base-v2.stl`: opaque filament
-- `stls/transparent-cap_v2.stl`: clear or translucent filament (clear PETG or "transparent" PLA both work as a diffuser)
+- `stls/transparent-cap_v2.stl`: clear or translucent TPU. It diffuses the LED, and because it's flexible you can press the buttons through it.
 
 I printed these on a Bambu P1P for the PCT-G and A1 for TPU, but both models are printable on either. The base needs no support, but the cap does. Print with the button stalks facing upward.
 
@@ -101,6 +101,10 @@ We are really under-utilizing the board right now, there are myriad ways to add 
 ## Compatibility
 
 Tested on a Sony **a7 IV**. Other Sony bodies that work with Sony's Bluetooth remotes (such as the RMT-P1BT) use the same protocol and should work, but they haven't been tested.
+
+## Disclaimer
+
+Use this project at your own risk. It's an unofficial hobby project and is not affiliated with or endorsed by Sony. It relies on a reverse-engineered Bluetooth protocol that could change with camera firmware updates. No guarantees are made that it will work, or that it will accurately show your camera's recording state. Always confirm recording on the camera itself for anything important. The authors aren't responsible for missed footage or for damage to your camera or other equipment.
 
 ## Acknowledgments
 
